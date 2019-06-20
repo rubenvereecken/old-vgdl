@@ -1,5 +1,18 @@
 # PyVGDL
+## VGDL 2.0 is now out!
+[VGDL 2.0](https://github.com/rubenvereecken/py-vgdl)
+is an actively supported,
+brand new implementation that remains backward compatible.
+It is a full-fledged library
+with a focus on extensibility,
+support for model-based approaches,
+human play and replay.
+Plus it interfaces with OpenAI Gym
+for incredible ease of use.
+This new incarnation is recommended for anyone looking
+to start using VGDL today.
 
+## VGDL 1 Description
 PyVGDL is a high-level video game description language (VGDL) built on top of pygame.
 
 The aim is to decompose game descriptions into two parts: 1) a very high-level description, close to human language, to specify the dynamics, which builds on 2) an ontology of preprogrammed concepts for dynamics, interactions, control.
@@ -11,7 +24,7 @@ Programmers extend the possibilities of (1) by writing modules in (2), and game 
 The original idea was [discussed in the 2012 Dagstuhl seminar](http://drops.dagstuhl.de/opus/volltexte/2013/4338/pdf/9.pdf),
 with a [full description](http://www.idsia.ch/~tom/publications/pyvgdl.pdf) presented at the IEEE CIG conference 2013 (this is also
 the reference paper to [cite](http://www.idsia.ch/~tom/bibtex/pyvgdl.bib) if you use PyVGDL for academic work).
- 
+
 ## Installation and Dependencies
 
 
@@ -26,7 +39,7 @@ the reference paper to [cite](http://www.idsia.ch/~tom/bibtex/pyvgdl.bib) if you
 *  For all reinforcement learning usage, also get the [PyBrain](http://www.pybrain.org) machine learning library
 
 *  For the upload to youtube functionality, you will need the [gdata](https://pypi.python.org/pypi/gdata) library
- 
+
 ### Installation
 
 using pip on linux
@@ -36,12 +49,12 @@ using pip on linux
 using pip on windows or Max OSX
 
 	pip install git+git://github.com/schaul/py-vgdl.git
-	
-otherwise you can download it and install it using 
+
+otherwise you can download it and install it using
 
 	git clone git://github.com/schaul/py-vgdl.git
 	python setup.py install
- 
+
 *  Try examples
 
           python -m examples.gridphysics.aliens
